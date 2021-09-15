@@ -10,6 +10,20 @@
 
 <p>&nbsp;</p>
 
+Table of Contents
+
+[Disclaimer](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#disclaimer)
+[Project Overview]()
+[Technologies](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#technologies)
+[Installation Guide](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#installation-guide)
+[Models](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#models)
+[Examples](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#examples)
+[Usages](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#usages)
+[Contributors](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#contributors)
+[Presentation Deck](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#deck)
+[License](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#license)
+
+
 
 ## **Disclaimer**
 
@@ -18,7 +32,9 @@ The content contained in this project iPython notebook is for informational purp
 ---
 
 
-# Twitter Sentiment Analysis
+# **Twitter Sentiment Analysis**
+
+## **Project Overview**
 With the use of NLP Sentiment Analysis, we will analyze the tweets regarding Activision Blizzard and correlate the tweets (or news) to the historical S&P 500 stock price and Activision Blizzard (ATVI) and how it affects it, then score those tweets as good, bad, or neutral. That tool is then used to compare the tweet activity to rise or fall of SP500 and ATVI as a whole. We rovide recommendation using a deep learning model to predict future performance
 
 
@@ -91,9 +107,13 @@ The libraries that we will be installing are the following:
 
 ---
 
-## **Models**
+## **Machine Learning Models**
 
+- Base - Sequential model
+- Recurrent Neural Network (RNN) - Bidirectional LSTM (BiLSTM)
+- Recurrent Neural Network 2 (RNN 2)- Bidirectional LSTM (BiLSTM)
 
+---
 
 ## **Examples**
 
