@@ -10,20 +10,30 @@
 
 <p>&nbsp;</p>
 
-Table of Contents
+## **Table of Contents**
 
 [Disclaimer](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#disclaimer)
-[Project Overview]()
+
+[Project Overview](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#project-overview)
+
 [Technologies](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#technologies)
+
 [Installation Guide](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#installation-guide)
+
 [Models](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#models)
+
 [Examples](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#examples)
+
 [Usages](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#usages)
+
 [Contributors](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#contributors)
+
 [Presentation Deck](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#deck)
+
 [License](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#license)
 
 
+---
 
 ## **Disclaimer**
 
