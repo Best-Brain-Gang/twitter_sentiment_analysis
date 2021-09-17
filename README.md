@@ -26,9 +26,9 @@
 
 [Usages](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#usages)
 
-[Contributors](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#contributors)
+[Presentation Deck](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#presentation-deck)
 
-[Presentation Deck](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#deck)
+[Contributors](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#contributors)
 
 [License](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis#license)
 
@@ -66,11 +66,17 @@ This project leverages **[python version 3.8.5](https://www.python.org/downloads
 
     * [Bidirectional LSTM](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Bidirectional)
 
+    * [Text Vectorization](https://www.tensorflow.org/api_docs/python/tf/keras/layers/TextVectorization) - This transforms a batch of strings (one example = one string) into either a list of token indices (one example = 1D tensor of integer token indices) or a dense representation (one example = 1D tensor of float values representing data about the example's tokens).
+
+    * [GlobalAveragePooling1D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/GlobalAveragePooling1D) 
+
 * [Keras](https://keras.io/) - *version 2.6.0* - This is an API designed for human beings, not machines. Keras follows best practices for reducing cognitive load: it offers consistent & simple APIs, it minimizes the number of user actions required for common use cases, and it provides clear & actionable error messages. It also has a free open source Python library for developing and evaluating deep learning models.
 
      * [models Sequential](https://keras.io/guides/sequential_model/) - This is used appropriately for a plain stack of layers where each layer has exactly one input tensor and one output tensor.
   
      * [ReLU](https://keras.io/api/layers/activations/) - The rectified linear unit (ReLU) function returns a value from 0 to infinity. This activation function transforms any negative input to 0. It is the most commonly used activation function in neural networks due to its faster learning and simplified output. However, it is not always appropriate for simpler models.
+
+     * [Sigmoid](https://keras.io/api/layers/activations/) - Used to classify the tweets into 0s and 1s. 
 
      * [Recurrent Neural Network (RNN)](https://www.tensorflow.org/guide/keras/rnn) - This is a class of neural networks that is powerful for modeling sequence data such as time series or natural language.
 
@@ -196,6 +202,13 @@ After installing the libraries, we have to import the libraries below:
 
 ### 3. Once running each model, when the user gets to Tensorboard, which sometimes does not show, please use incognito browser in this case. Also, the RNN and RNN2 models both take awhile to load their epochs.
 
+---
+
+## **Presentation Deck**
+
+### Click [**HERE**]('./Presentation_deck/Twitter_Sentiment_and_Stock_price.pdf') to learn more from our presentation.
+
+[![Crowdfunding Deck](./Images/twitter_sentiment_analysis_deck.png)]('./Presentation_deck/Twitter_Sentiment_and_Stock_price.pdf')
 
 ---
 
@@ -204,15 +217,6 @@ After installing the libraries, we have to import the libraries below:
 ### UW FinTech Bootcamp
 
 #### Colin Benjamin [![Linkedin](https://i.stack.imgur.com/gVE0j.png)](https://www.linkedin.com/in/colinbenjamin/) &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; Justine Cho [![Linkedin](https://i.stack.imgur.com/gVE0j.png)](https://www.linkedin.com/in/justinecho) &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; Christopher Henderson [![Linkedin](https://i.stack.imgur.com/gVE0j.png)](https://www.linkedin.com/in/chris-henderson123/) &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp; Nathan Patterson [![Linkedin](https://i.stack.imgur.com/gVE0j.png)](https://www.linkedin.com/in/natepatterson/) 
-
-
----
-
-## **Deck**
-
-```Click [HERE](./Resources/Images/Twitter_Sentiment_and_ATVI_stock_price.pdf) to learn more from our presentation.```
-
-```[![Crowdfunding Deck](./Resources/Images/Twitter_Sentiment_and_ATVI_stock_price.png)](./Resources/Images/Twitter_Sentiment_and_ATVI_stock_price.pdf) ```
 
 ---
 
