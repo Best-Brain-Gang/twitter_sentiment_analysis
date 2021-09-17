@@ -206,9 +206,9 @@ After installing the libraries, we have to import the libraries below:
 
 ## **Presentation Deck**
 
-### Click [**HERE**]('./Presentation_deck/Twitter_Sentiment_and_Stock_price.pdf') to learn more from our presentation.
+### Click [**HERE**](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis/blob/main/Presentation_deck/Twitter_Sentiment_and_Stock_price.pdf) to learn more from our presentation.
 
-[![Crowdfunding Deck](./Images/twitter_sentiment_analysis_deck.png)]('./Presentation_deck/Twitter_Sentiment_and_Stock_price.pdf')
+[![Crowdfunding Deck](./Images/twitter_sentiment_analysis_deck.png)](https://github.com/Best-Brain-Gang/twitter_sentiment_analysis/blob/main/Presentation_deck/Twitter_Sentiment_and_Stock_price.pdf)
 
 ---
 
