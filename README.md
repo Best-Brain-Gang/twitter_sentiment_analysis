@@ -45,7 +45,9 @@ The content contained in this project iPython notebook is for informational purp
 # **Twitter Sentiment Analysis**
 
 ## **Project Overview**
-With the use of NLP Sentiment Analysis, we will analyze the tweets regarding Activision Blizzard and correlate the tweets (or news) to the historical S&P 500 stock price and Activision Blizzard (ATVI) and how it affects it, then score those tweets as good, bad, or neutral. That tool is then used to compare the tweet activity to rise or fall of SP500 and ATVI as a whole. We rovide recommendation using a deep learning model to predict future performance
+With the use of NLP Sentiment Analysis, we will analyze the tweets regarding Activision Blizzard,  CD Projekt Red and NASDAQ 100, and correlate the tweets to their respective stock prices and how it affects it, then score those tweets as good, bad, or neutral. These tweets are from a major negative event in the life of the companies mentioned. 
+
+We use this tool to create a prediction signal to be use in our stock price predictor if it actually tracked the rise and fall of its stock prices accurately.
 
 
 ---
@@ -91,7 +93,6 @@ This project leverages **[python version 3.8.5](https://www.python.org/downloads
 
 ## **Installation Guide**
 
-
 ### 1. Running Google Colaboratory
 
 On your web browser (use incognito),  copy and paste this link below: 
@@ -134,20 +135,29 @@ The libraries that we will be installing are the following:
 ## **Examples**
 
 Base Model Summary
+
 ![Base Model Summary](./Images/base-model-summary.png)
 
 Base Model Epoch
+
 ![Base Model Epoch](./Images/base-model-epoch.png)
 
 Base Model Accuracy
-![Base Model Accuracy](./Images/base-model-accuracy-tensorboard.png)
+
+![Base Model Accuracy](./Images/model-accuracy-graph.png)
 
 RNN2 Model
+
 ![RNN2 Model Evaluate](./Images/rnn2-model-evaluate.png)
 
 Prediction Graph
 
-![Prediction Graph](./Images/prediction-graph.png)
+![Prediction Graph](./Images/atvi-prediction-signal.png)
+
+CDPT Trades
+
+![CDPR Trades](./Images/cdpr_trades.png)
+
 
 ---
 
@@ -156,7 +166,9 @@ Prediction Graph
 
 After installing the libraries, we have to import the libraries below:
 
-### 1. Importing the libraries below as part of the ipynb:
+### 1. Starts with mounting your Google Drive, but since you will have a copy of zip file of Twitter-sentiment, you don't need this mount anymore. But to make sure there aren't any errors, just save the twitter sentiment zip on your Google Drive.
+
+### 2. Importing the libraries below as part of the ipynb:
 
 `import os`
 
@@ -198,9 +210,8 @@ After installing the libraries, we have to import the libraries below:
 
 `import alpaca_trade_api as tradeapi`
 
-### 2. Then continue to run the other sections, then when the user gets to Download Data, click on the link, copy and paste the code and enter.
 
-### 3. Once running each model, when the user gets to Tensorboard, which sometimes does not show, please use incognito browser in this case. Also, the RNN and RNN2 models both take awhile to load their epochs.
+### 3. Once running each model, when the user gets to Tensorboard, which sometimes does not show, please use Incognito browser in this case. Also, all the models both take awhile to load their epochs. So try to use your GPUs when running this notebook. 
 
 ---
 
